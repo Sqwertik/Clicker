@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(71, 142, 71);
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    /* margin: auto; */
+    font-weight: bold;
+    font-size: 60px;
+    border: 3px solid orange;
+    border-radius: 40px;
+    width: 300px;
+    margin: 80px auto 0;
+}
+
+
+button {
+    display: flex;
+    margin: 90px auto 0;
+    font-size: 60px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(71, 142, 71);
+    border: 2px solid rgb(0, 47, 128);
+    transition: all 300ms ease;
+}
+
+button:hover {
+    transform: scale(1.10);
+}
+
+
+/*#count {
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+#cps {
+    text-align: center;
+    font-size: 29px;
+}*/
+
+
+
+.container {
+    display: flex;
+    justify-content: center; /* по центру */
+    gap: 40px;               /* расстояние между count и cps */
+    margin: 40px auto 0;
+    text-align: center;
+    font-size: 30px;
+
+}
